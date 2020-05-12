@@ -5,7 +5,7 @@ vene = open("vene.txt","r",encoding = "UTF-8")
 ukraina = open("ukraina.txt","r", encoding= "UTF-8")
 print("Leidsin, et mõlemas keeles on samad read:")
 Andrus = open("väljund.txt",encoding = "UTF-8", mode = "w")
-for rida in vene:
+for rida in vene: 
     for rida2 in ukraina:
         if rida==rida2:
             print(rida)
@@ -18,3 +18,6 @@ loe_failist_järjendisse()
 Andrus.close()
 vene.close()
 ukraina.close()
+
+print("Flowers")
+
